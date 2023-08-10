@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zay</title>
+
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+     <link
+      rel="stylesheet"
+      href="./css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+      <header>
+          <div
+            class="header_content d-flex justify-content-between bg-dark text-white p-2"
+          >
+            <div class="icon-1">
+              <i class="fa-solid fa-envelope mr-2" > </i><span class="m-2">info@company.com</span><i
+                class="fa-solid fa-phone"
+              ></i
+              ><span class="m-2">010-020-03040</span>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-facebook" ></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </header>
+
+         <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg p-2">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Zay</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-address-book"></i>
+              </span>
+            </div>
+          </div>
+        </nav>
+
+          <!-- slider  -->
+
+         <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./images/banner_img_01.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./images/banner_img_02.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/banner_img_03.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- categories -->
+   
+            <div class="categories">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="categories_contant">
+                <h1>Categories of The Month</h1>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row images">
+            <div class=" col-12 col-md-4 col-lg-4">
+              <img src="./images/category_img_01.jpg" alt="img-1" />
+              <h3>Watches</h3>
+              <a href="#" class="btn">Go Shop</a>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-4">
+              <img src="./images/category_img_02.jpg" alt="img-2" />
+              <h3>Shoes</h3>
+              <a href="#" class="btn">Go Shop</a>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-4">
+              <img src="./images/category_img_03.jpg" alt="img-3" />
+              <h3>Accessories</h3>
+              <a href="#" class="btn">Go Shop</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card  -->
+        <div class="card bg-light">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="card_content">
+                <h1>Featured Product</h1>
+                <p>
+                  Reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident.
+                </p>
+              </div>
+            </div>
+
+          </div>
+            <div class="container">
+              <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+               <div class="card">
+                 <img src="./images/feature_prod_02.jpg" />
+              <div class="gym"> 
+                <div class="content d-flex ">
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="price">
+                    <span>$240.00</span>
+                  </div>
+                </div>
+                <h1>Cloud Nike Shoes</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, veritatis?
+                </p>
+                <p>Reviews (84)</p>
+              </div>
+               </div>
+
+            </div>
+
+             <div class="col-12 col-md-4 col-lg-4  mb-4">
+              <div class="card">
+                <img src="./images/feature_prod_01.jpg" />
+                <div class="gym">  
+                <div class="content d-flex">
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="price">
+                    <span>$240.00</span>
+                  </div>
+                </div>
+                           
+                   <h1>Gym Weight Offer</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing  amet  elit.
+                  Harum, veritatis?
+                </p>
+                <p>Reviews (56)</p>
+                </div>
+ 
+              </div>
+            </div>
+
+             <div class="col-12 col-md-4 col-lg-4  mb-4">
+              <div class="card">
+                 <img src="./images/feature_prod_03.jpg" />
+                  <div class="gym"> 
+                <div class="content d-flex">
+                  <div class="icons d-inline">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <div class="price">
+                    <span>$240.00</span>
+                  </div>
+                </div>
+                <h1>Summer Addides Shoes</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, veritatis?
+                </p>
+                <p>Reviews (24)</p>
+              </div>
+              </div>
+
+            </div>
+
+
+              </div>
+          </div>
+        </div>
+
+
+
+
+
+        
+        <!-- footer -->
+
+        <footer class="bg-dark text-white pt-5 pb-4">
+          <div class="container">
+            <div class="row footer">
+              <div class="col-md-4 col-lg-4 col-xl-3 mt-3">
+                <h5 class="mb-4 font-weight-bold fs-2 text-success">
+                  Zay Shop
+                </h5>
+                <hr />
+                <p>
+                  <a href="#" class="text-white" style="font-size: larger">
+                    <i class="fa-solid fa-location-dot m-2 "></i>123 Consectetur
+                    at ligula 10660</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white"
+                    ><i class="fa-solid fa-phone m-2"></i>010-020-060</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white">
+                    <i class="fa-solid fa-envelope m-2"></i>info@compnay.com</a
+                  >
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                <h5 class="mb-4 fs-2 text-light">Products</h5>
+                <hr />
+                <p>
+                  <a href="#" class="text-white">Luxury</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Sport Wear</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Men"s Shop</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Women"s Shop</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Popular Dress</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Gym Accessories</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Sport Shoes</a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                <h5 class="mb-4 fs-2 text-light">Further Info</h5>
+                <hr />
+                <p>
+                  <a href="#" class="text-white">Home</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">About us</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white"> Shop Location</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">FAQs</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Contact</a>
+                </p>
+                <p></p>
+              </div>
+
+              <hr />
+
+              <div class="sub_footer">
+                <div class="sub-icon">
+                  <i class=" fa-brands fa-facebook" id="a1"></i>
+                  <i class="  fa-brands fa-instagram"id="a1"></i>
+                  <i class="  fa-brands fa-twitter " id="a1"></i>
+                  <i class="  fa-solid fa-magnifying-glass"id="a1"></i>
+                </div>
+
+                <div class="sub_input">
+                  <input
+                    type="search"
+                    id="site-search"
+                    placeholder="Email address"
+                    name="q"
+                    class="bg-dark"
+                  />
+
+                  <button class="serch">Subscribe</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-lg-12 mt-5 fs-5 bg-dark me-auto">
+              <p class="copyright">copyright @ 0220 All rights reserved by:Dipak pal</p>
+            </div>
+        </footer>
+       
+     
+     
+    
+
+    <!-- js cdn  -->
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <!-- <script src="./js/bundle.js"></script> -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
